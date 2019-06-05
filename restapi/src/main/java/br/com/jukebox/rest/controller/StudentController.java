@@ -20,7 +20,7 @@ import br.com.jukebox.rest.model.StudentNotFoundException;
 import br.com.jukebox.rest.model.StudentRepository;
 
 @RestController
-public class StudentResource {
+public class StudentController {
 
 	@Autowired
 	private StudentRepository studentRepository;
